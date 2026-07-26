@@ -1,19 +1,62 @@
 aid: ekpa
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ekpa.png
 name: Ekpa
-description: Ekpa is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Ekpa is an early-stage consumer fintech from Y Combinator's Summer 2026
+  batch, building autonomous research agents for trading. The product connects to a
+  user's brokerage accounts through SnapTrade and consolidates accounts, positions,
+  news, and research into a single dashboard, with AI-generated position analysis
+  grounded in news, analyst ratings, and SEC filings. Ekpa is research-and-education
+  only and makes no buy or sell recommendations, leaving every decision to the user.
+  As of this profile Ekpa publishes a single marketing site at goekpa.com and exposes
+  no public developer API, documentation, SDKs, OpenAPI, or other machine-readable
+  artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/ekpa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+x-yc-batch: Summer 2026
+x-yc-url: https://www.ycombinator.com/companies/ekpa
+x-founders:
+- Anant Asthana
+- Yuga Patel
+x-location: Boston, MA
+x-employees: 2
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  last_run: '2026-07-19'
+  outcome: no-api-surface
+  note: Consumer product; single marketing site at goekpa.com. No developer API, docs,
+    SDKs, OpenAPI, well-known, llms.txt, or GitHub org found. All /.well-known/*, /llms.txt,
+    /docs, /api, /developers, /privacy, /terms, /pricing probes returned 404. Brokerage
+    connectivity is delegated to SnapTrade (third party), not a first-party Ekpa API.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Investing
+- Portfolio Management
+- Trading
+- AI Agents
+- Consumer Finance
+- Y Combinator
+common:
+- type: Website
+  url: https://goekpa.com/
 apis: []
 maintainers:
 - FN: Kin Lane
