@@ -42,7 +42,7 @@ x-enrichment:
     SDKs, OpenAPI, well-known, llms.txt, or GitHub org found. All /.well-known/*, /llms.txt,
     /docs, /api, /developers, /privacy, /terms, /pricing probes returned 404. Brokerage
     connectivity is delegated to SnapTrade (third party), not a first-party Ekpa API.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
