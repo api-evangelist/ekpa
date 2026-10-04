@@ -60,7 +60,7 @@ tags:
 - Company
 - Fintech
 - Investing
-- Portfolio-Management
+- Portfolio Management
 - Trading
 - AI Agents
 - Consumer Finance
@@ -74,6 +74,7 @@ tags_raw:
 - AI Agents
 - Consumer Finance
 - Y Combinator
+- Portfolio-Management
 common:
 - type: Website
   url: https://goekpa.com/
